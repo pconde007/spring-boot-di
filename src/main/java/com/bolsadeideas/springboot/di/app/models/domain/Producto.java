@@ -2,20 +2,20 @@ package com.bolsadeideas.springboot.di.app.models.domain;
 
 public class Producto {
 
-	private String nombare;
+	private String nombre;
 	private Integer precio;	
 
 	public Producto(String nombare, Integer precio) {
-		this.nombare = nombare;
+		this.nombre = nombare;
 		this.precio = precio;
 	}
 
-	public String getNombare() {
-		return nombare;
+	public String getNombre() {
+		return nombre;
 	}
 
 	public void setNombare(String nombare) {
-		this.nombare = nombare;
+		this.nombre = nombare;
 	}
 
 	public Integer getPrecio() {
